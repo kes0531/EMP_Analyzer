@@ -11,7 +11,7 @@ class Virus_total:
                 break
             self.mal_hash.append(self.test)
         # 바이러스토탈 API Key
-        self.my_apikey = "83503200992b6d1d46cecd5fdc70403f05a3f0a11d68c5edade33e4d90c1a35e"
+        self.my_apikey = " 본인 API Key 입력 "
         n = 0
         # 파일이 여러개일 때를 대비해 추출 파일 디렉토리에서 파일 리스트 확인
         self.file_list = os.listdir('extract')
